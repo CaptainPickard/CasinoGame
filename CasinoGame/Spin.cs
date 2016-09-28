@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SlotMachineProject
+namespace CasinoGame
 {
     class Spin
     {
@@ -23,9 +23,8 @@ namespace SlotMachineProject
 
             if (begin.Key == ConsoleKey.Enter)
             {
-                Console.WriteLine("You rolled!");
-                Console.WriteLine();
-                Console.ReadLine();
+                Console.WriteLine("You rolled a ...");
+                
             }
         }
     }

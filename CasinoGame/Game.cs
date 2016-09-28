@@ -8,5 +8,11 @@ namespace CasinoGame
 {
     class Game
     {
+        public void playGame()
+        {
+            Spin pullLever = new Spin();
+            pullLever.spin();
+            Console.WriteLine();
+        }
     }
 }
