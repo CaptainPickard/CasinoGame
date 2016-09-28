@@ -12,8 +12,12 @@ namespace SlotMachineProject
         {
 
             Random randNum = new Random();
+
             Wallet wallet = new Wallet();
 
+            int Value1 = randNum.Next(0, 9);
+            int Value2 = randNum.Next(0, 9);
+            int Value3 = randNum.Next(0, 9);
 
             wallet.fillWallet();
 
@@ -24,7 +28,7 @@ namespace SlotMachineProject
             if (begin.Key == ConsoleKey.Enter)
             {
                 Console.WriteLine("You rolled!");
-                Console.WriteLine();
+                Console.WriteLine(Value1 + Value2 + Value3);
                 Console.ReadLine();
             }
         }
