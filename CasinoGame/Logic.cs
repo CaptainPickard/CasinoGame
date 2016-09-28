@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CasinoGame
 {
-    public class Spin
+    public class Logic
     {
-        public void spin()
+        public void logic()
         {
 
             Random randNum = new Random();
