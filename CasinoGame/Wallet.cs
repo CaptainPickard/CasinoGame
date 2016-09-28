@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SlotMachineProject
+namespace CasinoGame
 {
     class Wallet
     {
@@ -47,6 +47,7 @@ namespace SlotMachineProject
                     Console.WriteLine("Invalid entry. Please enter an int in an increment of 5");
 
                 }
+                
 
             }
         }

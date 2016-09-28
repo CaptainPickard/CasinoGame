@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SlotMachineProject
+namespace CasinoGame
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Spin pullLever = new Spin();
-            pullLever.spin();
-            Console.WriteLine();
-
+            Game game = new Game();
+            game.playGame();
         }
     }
 }
